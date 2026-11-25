@@ -1,0 +1,7 @@
+{
+  "project": "Field Card Delivery and Measurement",
+  "kind": "Worker source and SQL fixtures",
+  "source": "potify-first-cycle at `7bc29685d6decd1f3d1bbbb0216f837bc7701a51`. Worker, D1 migration and original delivery tests. Use only behind a trusted authenticated edge that strips client-supplied identity headers. The fixture uses an in-memory database.",
+  "scope": "No visitor rows, private reports or production authentication bindings are included.",
+  "prepared": "2026-11-25"
+}
