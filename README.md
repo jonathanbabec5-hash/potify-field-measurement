@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## Did a reader receive a field card?
+
+A button can be pressed without a PDF arriving. A PDF can arrive without the reader ever seeing the button. For a publisher making a useful thing on paper, that difference is the whole measurement question.
+
+Follow the [test request](tests/field-tracking.test.mjs) from the landing page to the file, then inspect the [Worker](src/field-worker.mjs). The SQLite fixture separates anonymous delivery counts, consent-based attribution and excluded traffic. Seven local cases are documented; no real visitor records are included.
+
+Run a direct-file request and a page-only visit in the fixture. Explain which counter should change in each case and why. A good correction uses synthetic requests and protects the reader’s choice. It does not turn delivery into a claim that the card was read.
+
 **Worker source and SQL fixtures.** Let a publisher distinguish a delivered file from a button click.
 
 ### Setup and usage
