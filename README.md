@@ -1,5 +1,13 @@
 # Field Card Delivery and Measurement
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A publisher | [Inspect the delivery fixture](tests/field-tracking.test.mjs) | Compare a direct file request with a page visit. |
+| A developer | [Read the Worker](src/field-worker.mjs) | Follow how delivery is recorded using synthetic inputs. |
+| A reader | [Explore Field Card 01](https://github.com/jonathanbabec5-hash/potify-field-card) | Find the separate card and its reading companion. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## Did a reader receive a field card?
